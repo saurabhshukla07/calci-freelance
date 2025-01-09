@@ -14,65 +14,79 @@
     <main>
         <form class="estimator-form">
             <section>
-                <h2>Bathrooms</h2>
-                <label>Number of Bathrooms:</label>
-                <input type="number" id="numBathrooms" min="0">
-                
-                <label>Square Feet:</label>
-                <input type="number" id="bathroomSqFt" min="0">
-                
-                <div class="options">
-                    <label><input type="checkbox" id="vinylFloorBathroom"> Vinyl Floor</label>
-                    <label><input type="checkbox" id="tileFloorBathroom"> Tile Floor</label>
-                    <label><input type="checkbox" id="shower"> Shower</label>
-                    <label><input type="checkbox" id="bathtub"> Bathtub</label>
-                    <label><input type="checkbox" id="doubleSinkVanity"> Double Sink Vanity</label>
-                    <label><input type="checkbox" id="renovationBathroom"> Renovation</label>
+                <label><input type="checkbox" id="toggleBathroom"> Bathrooms</label>
+                <div id="bathroomSection" class="toggle-content">
+                    <h2>Bathrooms</h2>
+                    <label>Number of Bathrooms:</label>
+                    <input type="number" id="numBathrooms" min="0">
+            
+                    <label>Square Feet:</label>
+                    <input type="number" id="bathroomSqFt" min="0">
+            
+                    <div class="options">
+                        <label><input type="checkbox" id="vinylFloorBathroom"> Vinyl Floor</label>
+                        <label><input type="checkbox" id="tileFloorBathroom"> Tile Floor</label>
+                        <label><input type="checkbox" id="shower"> Shower</label>
+                        <label><input type="checkbox" id="bathtub"> Bathtub</label>
+                        <label><input type="checkbox" id="doubleSinkVanity"> Double Sink Vanity</label>
+                        <label><input type="checkbox" id="renovationBathroom"> Renovation</label>
+                    </div>
                 </div>
             </section>
-
+            
             <section>
-                <h2>Kitchens</h2>
-                <label>Number of Kitchens:</label>
-                <input type="number" id="numKitchens" min="0">
-
-                <label>Square Feet:</label>
-                <input type="number" id="kitchenSqFt" min="0">
-
-                <div class="options">
-                    <label><input type="checkbox" id="tileFloorKitchen"> Tile Floor</label>
-                    <label><input type="checkbox" id="cabinets"> Cabinets</label>
-                    <label><input type="checkbox" id="countertop"> Countertop</label>
-                    <label><input type="checkbox" id="lightingKitchen"> Lighting</label>
+                <label><input type="checkbox" id="toggleKitchen"> Kitchens</label>
+                <div id="kitchenSection" class="toggle-content">
+                    <h2>Kitchens</h2>
+                    <label>Number of Kitchens:</label>
+                    <input type="number" id="numKitchens" min="0">
+            
+                    <label>Square Feet:</label>
+                    <input type="number" id="kitchenSqFt" min="0">
+            
+                    <div class="options">
+                        <label><input type="checkbox" id="tileFloorKitchen"> Tile Floor</label>
+                        <label><input type="checkbox" id="cabinets"> Cabinets</label>
+                        <label><input type="checkbox" id="countertop"> Countertop</label>
+                        <label><input type="checkbox" id="lightingKitchen"> Lighting</label>
+                    </div>
                 </div>
             </section>
-
+            
             <section>
-                <h2>Flooring</h2>
-                <label>Square Feet:</label>
-                <input type="number" id="flooringSqFt" min="0">
-                <div class="options">
-                    <label><input type="checkbox" id="vinylFloorFlooring"> Vinyl Floor</label>
-                    <label><input type="checkbox" id="tileFloorFlooring"> Tile Floor</label>
-                    <label><input type="checkbox" id="renovationFlooring"> Renovation</label>
+                <label><input type="checkbox" id="toggleFlooring"> Flooring</label>
+                <div id="flooringSection" class="toggle-content">
+                    <h2>Flooring</h2>
+                    <label>Square Feet:</label>
+                    <input type="number" id="flooringSqFt" min="0">
+            
+                    <div class="options">
+                        <label><input type="checkbox" id="vinylFloorFlooring"> Vinyl Floor</label>
+                        <label><input type="checkbox" id="tileFloorFlooring"> Tile Floor</label>
+                        <label><input type="checkbox" id="renovationFlooring"> Renovation</label>
+                    </div>
                 </div>
             </section>
-
+            
             <section>
-                <h2>Basements / Dens</h2>
-                <label>Number of Basements / Dens:</label>
-                <input type="number" id="numBasements" min="0">
-
-                <label>Square Feet:</label>
-                <input type="number" id="basementSqFt" min="0">
-
-                <div class="options">
-                    <label><input type="checkbox" id="vinylFloorBasement"> Vinyl Floor</label>
-                    <label><input type="checkbox" id="tileFloorBasement"> Tile Floor</label>
-                    <label><input type="checkbox" id="renovationBasement"> Renovation</label>
-                    <label><input type="checkbox" id="lightingBasement"> Lighting</label>
+                <label><input type="checkbox" id="toggleBasement"> Basements / Dens</label>
+                <div id="basementSection" class="toggle-content">
+                    <h2>Basements / Dens</h2>
+                    <label>Number of Basements / Dens:</label>
+                    <input type="number" id="numBasements" min="0">
+            
+                    <label>Square Feet:</label>
+                    <input type="number" id="basementSqFt" min="0">
+            
+                    <div class="options">
+                        <label><input type="checkbox" id="vinylFloorBasement"> Vinyl Floor</label>
+                        <label><input type="checkbox" id="tileFloorBasement"> Tile Floor</label>
+                        <label><input type="checkbox" id="renovationBasement"> Renovation</label>
+                        <label><input type="checkbox" id="lightingBasement"> Lighting</label>
+                    </div>
                 </div>
             </section>
+            
 
             <section class="cost">
                 <h2>Cost Estimation</h2>
